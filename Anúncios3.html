@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncios - Página 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="Logo da Panificadora Pão de Ouro" class="logo">
+            <h1>Anúncios</h1>
+            <button id="audio-button" class="audio-button">🔊</button>
+            <audio id="audio-anuncio" src="anuncio.mp3"></audio>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="anuncios1.html">Anúncios 1</a></li>
+                <li><a href="anuncios2.html">Anúncios 2</a></li>
+                <li><a href="anuncios3.html">Anúncios 3</a></li>
+                <li><a href="paes.html">Pães</a></li>
+                <li><a href="massas.html">Massas</a></li>
+                <li><a href="doces.html">Doces</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="anuncios">
+        <h2>Anúncios - Página 3</h2>
+        <!-- Adicione mais anúncios aqui -->
+        <!-- Exemplo de anúncio -->
+        <div class="anuncio">
+            <img src="img/anuncio7.jpg" alt="Promoção de Café" class="clickable">
+            <p>Compre 1 café e ganhe 1 pão de queijo!</p>
+        </div>
+    </section>
+    <nav class="pagination">
+        <a href="anuncios1.html">1</a>
+        <a href="anuncios2.html">2</a>
+        <a href="anuncios3.html" class="active">3</a>
+    </nav>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Panificadora Pão de Ouro. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal para imagem ampliada -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
